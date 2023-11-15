@@ -1,0 +1,135 @@
+.container>input{
+    color: whitesmoke;
+    padding: 1.5rem 2rem;
+    border: 1px solid green;
+    /* background-color: rgba(0, 181, 0, 0.412); */
+    background-color: rgba(4, 226, 4, 0.542);
+    border-radius: .3rem;
+    font-size: 1.1rem;
+}
+
+.image>h2{
+    color: white;
+}
+
+.image>img{
+    border-radius: 1rem;
+    width:400px;
+    height:300px;
+    object-fit:cover;
+}
+
+.scanBtn{
+    padding: 1rem;
+    border-radius: .3rem;
+    outline: none;
+    border: none;
+    background-color: rgba(4, 226, 4, 0.542);
+    color: white;
+    width: 200px;
+    cursor: pointer;
+    width: 400px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-bottom: 1.2rem;
+}
+
+.scanBtn:hover{
+    background-color: green;
+}
+
+.captured{
+    color: white;
+}
+
+
+.result>h2{
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* background-color: rgba(4, 226, 4, 0.542); */
+    padding: .4rem;
+}
+
+.result>div{
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 700;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    padding: .4rem 0;
+    background-color: rgba(83, 25, 150, 0.486);
+}
+
+.capture{
+    /* width: 800px; */
+    /* background-color: aqua; */
+}
+
+.para>div{
+    font-size: 1.2rem;
+    background-color: white;
+    color: rgb(15, 15, 15);
+    padding: .6rem;
+    font-weight: 600;
+}
+
+.logo{
+    padding: 0 1rem;
+    transform: scale(1.4);
+    padding-top: 0rem;
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .image>img{
+        width:300px;
+        height:200px;
+    }
+
+    .para>div{
+        font-size: 1rem;
+        padding: .6rem 3rem;
+        font-weight: 700;
+        text-align: justify;
+
+    }
+
+    
+
+    .container>input{
+        padding: .9rem 2rem;
+        font-size: 1rem;
+    }
+
+    .scanBtn{
+        padding: 1rem;
+        width: 370px;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .image>h2{
+        font-size: 1.3rem;
+    }
+
+    .result>h2{
+        font-size: 1.5rem;
+        width: 360px;
+        border-radius: .4rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+
+    .result>div{
+        font-size: 1.3rem;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+        padding: .2rem 2rem;
+        background-color: rgb(239, 239, 239);
+        text-align: left;
+        /* border-radius: .4rem; */
+    }
+  }
